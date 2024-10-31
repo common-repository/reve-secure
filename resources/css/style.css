@@ -1,0 +1,31 @@
+p#loadingMsg{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+.left, .right{
+    display: inline-block;
+}
+.tableRed{
+    background-color: #e3bbbb !important;
+}
+.mySpinner {
+    background: url('../../../../../wp-admin/images/spinner.gif') no-repeat;
+    background-size: 16px 16px !important;
+    opacity: .7;
+    filter: alpha(opacity=70);
+    width: 16px;
+    height: 16px;
+    margin: 5px 5px 0;
+    display: inline-block;
+}
+.settingSpinner{
+    display: none;
+}
+#secretKey, #apiKey{
+    width: 518px;
+}
+.myRow{
+    width : 90px;
+}
